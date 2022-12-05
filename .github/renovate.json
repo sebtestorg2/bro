@@ -1,0 +1,13 @@
+{
+  "baseBranches": ["release/v3.0"],
+  "rebaseWhen": "conflicted",
+  "labels": ["dependencies"],
+  "prHourlyLimit": 2,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["k8s.io/api","k8s.io/apiextensions-apiserver","k8s.io/apimachinery","k8s.io/apiserver","k8s.io/client-go"],
+      "groupName": "k8s-dependencies",
+      "allowedVersions": "<1.25.0"
+    }
+  ]
+}

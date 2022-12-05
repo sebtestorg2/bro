@@ -13,8 +13,8 @@
     {
       "matchPackagePatterns": ["registry.suse.com/bci/bci-"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "stabilityDays": 3
+      "stabilityDays": 3,
+      "automerge": true
     }
   ]
 }

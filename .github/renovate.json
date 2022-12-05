@@ -8,6 +8,12 @@
       "matchPackagePatterns": ["k8s.io/api","k8s.io/apiextensions-apiserver","k8s.io/apimachinery","k8s.io/apiserver","k8s.io/client-go"],
       "groupName": "k8s-dependencies",
       "allowedVersions": "<0.25.0"
+    },
+    {
+      "matchPackagePatterns": ["registry.suse.com/bci/bci-"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "stabilityDays": 3
     }
   ]
 }

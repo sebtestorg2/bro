@@ -13,7 +13,7 @@ require (
 	github.com/rancher/wrangler v0.8.11-0.20220411195911-c2b951ab3480
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sirupsen/logrus v1.8.1
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
+	golang.org/x/sync v0.1.0
 	k8s.io/api v0.21.2
 	k8s.io/apiextensions-apiserver v0.18.0
 	k8s.io/apimachinery v0.21.2

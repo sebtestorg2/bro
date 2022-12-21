@@ -13,7 +13,7 @@
     },
     {
       "matchPackagePatterns": ["golang.org/"],
-      "groupName": "golang-internal-dependencies",
+      "groupName": "golang-internal-dependencies"
     },
     {
       "matchPackagePatterns": ["registry.suse.com/bci/bci-"],

@@ -12,6 +12,10 @@
       "allowedVersions": "<0.25.0"
     },
     {
+      "matchPackagePatterns": ["golang.org/"],
+      "groupName": "golang-internal-dependencies",
+    },
+    {
       "matchPackagePatterns": ["registry.suse.com/bci/bci-"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "stabilityDays": 3,
